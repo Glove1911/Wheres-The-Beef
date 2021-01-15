@@ -10,11 +10,7 @@
             <ul>
                 {{#each burgers}}
                 {{#unless this.devoured}}
-                <li>
-                    <p>data-burgerid={{this.id}} class="burger-name {{this.burger_name}}</p>
-                    <button data-burgerid={{this.id}}class="devour-button">Devour</button>
-
-                </li>
+                {{>burgers/burgers devoured = false}}
                 {{/unless}}
                 {{/each}}
             </ul>
@@ -23,7 +19,7 @@
         </div>
 
         <div class="col" id="burger-pic">
-            <img src="/public/assets/images/Burger pic.jpg">
+            <img src="/assets/images/Burger pic.jpg" class="img-thumbnail mb-2">
 
         </div>
 
@@ -33,8 +29,7 @@
             <ul>
                 {{#each burgers}}
                 {{#if this.devoured}}
-
-                <li>{{this.burger_name}}</li>
+                {{>burgers/burgers devoured = true}}
                 {{/if}}
                 {{/each}}
             </ul>
@@ -46,8 +41,8 @@
 
 </div>
 
-<form id="new-burger" action="/newburger" class="create-form" method="POST">
-    <div class="form-group col-md-8">
+<form id="new-burger" action="/burgers" class="create-form" method="POST">
+    <div class="form-group col-md-4">
         <input type="text" id="add-burger" name="burger-name" class="form-control">
         <button type="submit" class="btn btn-default" id="submit-burger">Add Burger</button>
     </div>
