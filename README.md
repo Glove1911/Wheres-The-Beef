@@ -20,7 +20,7 @@ Where's the beef is a restaurant app that lets users input the names of the burg
 <img src="https://github.com/Glove1911/Wheres-The-Beef/blob/main/public/assets/images/4ECB5B2B-C8B6-4664-8B7B-F7784123621D_1_105_c.jpeg">
 
 ## Installation
-1. Clone my repo usin the folowing command line below:
+1. Clone my repo using the folowing command line below:
 ```
 git clone git@github.com:Glove1911/Eat-Da-Burger.git
 ```
