@@ -15,11 +15,12 @@
 
 
  ## Description
-Where's the beef is a restaurant app that lets users input the names of the burgers they would like to eat.  Whenever a user submits a burger's name, the app displays the burger on the menu--waiting to be devoured.  Each burger on the menu has a Devour It! button, that when the user clicks it, the burger will move to the right side of the page under Burgers Devoured.  The app stores every burger in the database whether devoured or not.  This app follows the MVC design patter.  It was built utilizing Node and MySql to query and route the data, a homemade ORM for data transfer, and Handlebars to generate HTML
+Where's the beef is a restaurant app that lets users input the names of the burgers they would like to eat.  Whenever a user submits a burger's name, the app displays the burger on the menu--waiting to be devoured.  Each burger on the menu has a Devour It! button, that when the user clicks it, the burger will move to the right side of the page under Burgers Devoured.  The app stores every burger in the database whether devoured or not.  This app follows the MVC design pattern.  It was built utilizing Node and MySql to query and route the data, a homemade ORM for data transfer, and Handlebars to generate HTML.
 
+<img src="https://github.com/Glove1911/Wheres-The-Beef/blob/main/public/assets/images/4ECB5B2B-C8B6-4664-8B7B-F7784123621D_1_105_c.jpeg">
 
 ## Installation
-1. Clone my repo usin the folowing command line below:
+1. Clone my repo using the folowing command line below:
 ```
 git clone git@github.com:Glove1911/Eat-Da-Burger.git
 ```
@@ -35,7 +36,7 @@ npm install
 
 
 ## Usage
-Run the following command at the root of your project and answer the prompted questions:
+Run the following command at the root of your project to start the app:
 ```
 node server.js
 ```
@@ -57,7 +58,8 @@ N/A
 
 
 ## Questions
+Github:
 (https://github.com/Glove1911) 
 
-
-Please contact me at [harrison_glover@yahoo.com](mailto:harrison_glover@yahoo.com) with any questions.
+Email:
+ [harrison_glover@yahoo.com](mailto:harrison_glover@yahoo.com)
