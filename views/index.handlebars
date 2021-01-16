@@ -2,9 +2,9 @@
 
 <div class="container-fluid main-container">
 
-    <div class="row">
+    <div class="row justify-content-center">
 
-        <div class="col">
+        <div class="col" id="burger-menu">
             <h2>Burger Menu</h2>
 
             <ul>
@@ -41,9 +41,11 @@
 
 </div>
 
-<form id="new-burger" action="/burgers" class="create-form" method="POST">
-    <div class="form-group col-md-4">
-        <input type="text" id="add-burger" name="burger-name" class="form-control">
-        <button type="submit" class="btn btn-default" id="submit-burger">Add Burger</button>
+
+<form class="create-form" id="burger-form">
+    <h3 id="burger-text">Add A Burger</h3>
+    <div class="form-group form-inline justify-content-center">
+        <input type="text" id="add-burger" name="burger" class="form-control">
+        <button type="submit" method="POST" class="btn btn-success" id="submit-burger">Add Burger</button>
     </div>
 </form>

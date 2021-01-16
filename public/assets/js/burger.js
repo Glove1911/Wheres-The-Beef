@@ -19,7 +19,7 @@ $(function () {
     $(".create-form").on("submit", function(event){
         event.preventDefault();
         var newBurger = {
-            burger_name: $("#add-burger").val().trim()
+            name: $("#add-burger").val().trim(),
         };
         $.ajax("/api/burgers/",{
             type: "Post",

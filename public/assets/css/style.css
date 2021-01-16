@@ -1,9 +1,32 @@
 #burger-pic {
-  width: 5px;
+  /* width: 2px; */
     height: auto;
+    background-color: yellow;
 
 }
 
 body{
     background-color: yellow;
+}
+
+#burger-form {
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 50px;
+
+}
+
+#submit-burger {
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#burgers-eaten ,#burger-menu,#add-burger {
+  background-color: green;
+
+}
+
+#burger-text {
+  margin-left: 12%;
 }
