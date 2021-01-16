@@ -36,7 +36,7 @@ npm install
 
 
 ## Usage
-Run the following command at the root of your project and answer the prompted questions:
+Run the following command at the root of your project to start the app:
 ```
 node server.js
 ```
