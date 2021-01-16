@@ -15,7 +15,7 @@
 
 
  ## Description
-Where's the beef is a restaurant app that lets users input the names of the burgers they would like to eat.  Whenever a user submits a burger's name, the app displays the burger on the menu--waiting to be devoured.  Each burger on the menu has a Devour It! button, that when the user clicks it, the burger will move to the right side of the page under Burgers Devoured.  The app stores every burger in the database whether devoured or not.  This app follows the MVC design patter.  It was built utilizing Node and MySql to query and route the data, a homemade ORM for data transfer, and Handlebars to generate HTML
+Where's the beef is a restaurant app that lets users input the names of the burgers they would like to eat.  Whenever a user submits a burger's name, the app displays the burger on the menu--waiting to be devoured.  Each burger on the menu has a Devour It! button, that when the user clicks it, the burger will move to the right side of the page under Burgers Devoured.  The app stores every burger in the database whether devoured or not.  This app follows the MVC design pattern.  It was built utilizing Node and MySql to query and route the data, a homemade ORM for data transfer, and Handlebars to generate HTML.
 
 <img src="https://github.com/Glove1911/Wheres-The-Beef/blob/main/public/assets/images/4ECB5B2B-C8B6-4664-8B7B-F7784123621D_1_105_c.jpeg">
 
