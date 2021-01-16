@@ -58,7 +58,8 @@ N/A
 
 
 ## Questions
+Githbub:
 (https://github.com/Glove1911) 
 
-
-Please contact me at [harrison_glover@yahoo.com](mailto:harrison_glover@yahoo.com) with any questions.
+Email:
+ [harrison_glover@yahoo.com](mailto:harrison_glover@yahoo.com)
