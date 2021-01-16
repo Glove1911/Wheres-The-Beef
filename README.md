@@ -58,7 +58,7 @@ N/A
 
 
 ## Questions
-Githbub:
+Github:
 (https://github.com/Glove1911) 
 
 Email:
