@@ -6,7 +6,7 @@
 
         <div class="col" id="burger-menu">
             <h2>Burger Menu</h2>
-
+            {{!-- Loops through burgers  --}}
             <ul>
                 {{#each burgers}}
                 {{#unless this.devoured}}
@@ -25,7 +25,7 @@
 
         <div class="col" id="burgers-eaten">
             <h2>Burgers Devoured</h2>
-
+                {{!-- Loops through burgers and displays as devoured --}}
             <ul>
                 {{#each burgers}}
                 {{#if this.devoured}}
